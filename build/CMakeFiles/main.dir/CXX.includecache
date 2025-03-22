@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/local_perception/sdf_map.h
+Eigen/Eigen
+-
+iostream
+-
+tuple
+-
+queue
+-
+
+/home/juchunyu/20231013/05map/esdf_map/main.cpp
+local_perception/sdf_map.h
+/home/juchunyu/20231013/05map/esdf_map/local_perception/sdf_map.h
+memory
+-
+Eigen/Eigen
+-
+
